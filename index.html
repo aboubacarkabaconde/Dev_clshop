@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- liaison fichiers boostrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- liaison fichiers boostrap JS-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <title>Clshop - Page D'accueil</title>
+
+</head>
+<body>
+    <div class="container-fluid">
+    <!--Debut entete -->
+            <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">CLSHOP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="apropo.html">A PROPOS</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              BOUTIQUE
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="telephon.html">Telephone</a></li>
+                              <li><a class="dropdown-item" href="ordi.html">Ordinateurs</a></li>
+                              <li><a class="dropdown-item" href="electro.html">Electromenager</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="register.html">Inscription</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="login.html">Connexion</a>
+                          </li>
+
+                     </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Recherche</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        <!--Fin entete-->
+
+        <!--Debut Banniere-->
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="6000">
+                  <img src="image/banner.jpg" class="d-block w-100" alt="..." >
+                </div>
+                <div class="carousel-item" data-interval="6000">
+                  <img src="image/banner1.png" class="d-block w-100" alt="..." >
+                </div>
+                <div class="carousel-item" data-interval="6000">
+                  <img src="image/banner.jpg" class="d-block w-100" alt="..." >
+                </div>
+              </div>
+            </div>
+        <!--Fin Banniere-->
+
+        <!--Debut titre produits-->
+        <div class="card bg-primary text-white text-center my-3 p-2">
+            <div class="card-body bg-dark">
+                <h2 class="text-uppercase">L'idee etait de creer une boutique en ligne</h2>
+                <p class="fs-4">Que je voulais moi meme, en en apprenant a coder a coder une
+                    appli web par moi meme avec le HTML CSS BOOTSTRAP
+                    PYTHON DJANGO SQLITE3
+                </p>
+            </div>
+        </div>
+        <!--Fin titre produits-->
+
+        <!--Debut section liste des produits-->
+        <div class="card mb-3" style="background: darkblue;">
+            <h2 class="text-white text-center">Nos produits populaires</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/sa541.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Iphone 13 pro Max</h5>
+                    <p class="card-text text-danger fs-4">5 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/sa5.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Iphone X</h5>
+                    <p class="card-text text-danger fs-4">3 000 000fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/sa53.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">SAMSUMG</h5>
+                    <p class="card-text text-danger fs-4">4 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/sa54.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">TECHNO</h5>
+                    <p class="card-text text-danger fs-4">3 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Fin section liste des produits-->
+
+        <!--debut Block Ordinateur-->
+          <div class="row row-cols-1 row-cols-md-4 g-4 py-2">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-mac.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Mac Book Pro</h5>
+                    <p class="card-text text-danger fs-4">5 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/tosh.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Toshiba</h5>
+                    <p class="card-text text-danger fs-4">3 000 000fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-or.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">SAMSUMG</h5>
+                    <p class="card-text text-danger fs-4">4 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-hp1.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">DELL</h5>
+                    <p class="card-text text-danger fs-4">3 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <!--fin Block Ordinateur-->
+
+
+        <!--debut Block Electromenager-->
+                  <div class="row row-cols-1 row-cols-md-4 g-4 py-2">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-mac.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Mac Book Pro</h5>
+                    <p class="card-text text-danger fs-4">5 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/tosh.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Toshiba</h5>
+                    <p class="card-text text-danger fs-4">3 000 000fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-or.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">SAMSUMG</h5>
+                    <p class="card-text text-danger fs-4">4 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="image/pc-hp1.jpg" class="card-img-top" height="400" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">DELL</h5>
+                    <p class="card-text text-danger fs-4">3 000 000 fg</p>
+                    <button class=" btn btn-outline-primary" >Acheter</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <!--fin Block Eletromenager-->
+
+
+        <!--debut Block Temoignage Clients-->
+        <div class="card my-2 bg-dark">
+            <h3 class="text-center text-white">Temoignages Clients</h3>
+        </div>
+
+        <div class="row p-2">
+            <div class="col">
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/user3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Aissatou Nakanera</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">CEO Afrimatin</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mb-3" >
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/user4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Aboubacar Kaba Conde</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">PDG BOUBA Group Technologie</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--fin Block Temoignage Clients-->
+
+        <!--Debut Pied de Page-->
+
+        <div class="b-example-divider"></div>
+
+
+
+              <footer class="py-5 bg-dark text-white">
+                <div class="row ">
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5 class="row mx-1">Reseaux sociaux</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Facebook</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Instagram</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">X</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Whatsapp</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5 class="row mx-1">Liens</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Services</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">Pricing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mx-1 text-white">A propos</a></li>
+
+                    </ul>
+                  </div>
+
+                  <div class="col-md-5 offset-md-1 mb-5">
+                    <form>
+                      <h5>Subscribe to our newsletter</h5>
+                      <p>Monthly digest of what's new and exciting from us.</p>
+                      <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                  <div class="text-center text-white flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                      <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+                  </div>
+              </footer>
+            </div>
+
+        <!--Fin Pied de Page-->
+
+        </div>
+</body>
+</html>
